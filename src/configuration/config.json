@@ -1,0 +1,15 @@
+{
+	"loggingLevel": "warn",
+	"loggingPath": "./log/output.log",
+	"loggingJSON": false,
+	"loggingMaxSizeFile": 5242880,
+	"loggingMaxFiles": 5,
+	"loggingLabel": "Input-API",
+	"loggingColorized": false,
+	"loggingTime": true,
+	"inputDataMaxLength": 20500000,
+	"officeLatitude":53.339428,
+	"officeLongtitude": -6.257664,
+	"R": 6371,
+	"Range": 100
+}

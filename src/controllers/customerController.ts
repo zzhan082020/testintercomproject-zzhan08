@@ -2,7 +2,7 @@ import ICustomer from "../interfaces/iCustomer";
 import CustomerService from "../services/customerService";
 import LocationService from '../services/locationService';
 import config from '../configuration/config.json';
-import CustomerContainerComponent from '../components/CustomerContainerComponent';
+import CustomerContainerComponent from '../components/customerContainerComponent';
 
 import { logger } from '../logger';
 

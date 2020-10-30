@@ -1,7 +1,7 @@
 import  { ReadLine, createInterface }  from 'readline';
 import { once } from 'events';
 import fs from 'fs';
-import BaseRepository from "./BaseRepository";
+import BaseRepository from "./baseRepository";
 import ICustomer from "../interfaces/iCustomer";
 import config from '../configuration/config.json';
 import * as path from 'path';

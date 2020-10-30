@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test Runner",
+      "setup": "npm install",
+      "run": "npm t",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

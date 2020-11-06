@@ -1,4 +1,6 @@
 import CustomerService from "../../src/services/customerService";
+import {CustomRepo, CustomerRepository} from "../../src/repositories/customerRepository";
+
 import ICustomer from "../../src/interfaces/iCustomer";
 import * as path from 'path';
 describe("test data service", () => {
@@ -13,3 +15,4 @@ describe("test data service", () => {
   	expect(ds.readLine(lineReader)).resolves.toBe(32);
   });
 });
+
